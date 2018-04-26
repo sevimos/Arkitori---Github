@@ -1,0 +1,12 @@
+
+	<NpcSpawnDefinition>
+	<!-->Abyssal demon<-->
+		<id>415</id>
+		<location>
+			<x>3095</x>
+			<y>3486</y>
+			<z>0</z>
+		</location>
+		<walk>true</walk>
+		<face>0</face>
+	</NpcSpawnDefinition>

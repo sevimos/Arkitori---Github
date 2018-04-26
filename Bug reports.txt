@@ -1,0 +1,66 @@
+#1: Bonfires - Allowing players to start bonfires as the clipping for firemaking is currently bugged. Also allows users to avoid clicking. 
+ 
+#2: Creating a Manta / Karambwan fishing location inside donator zone fishing.
+ 
+#3: Mentioned inside the donator benefits guide super donators will have the option to use the command "::bank" but should be sest for 1 minute intervals. 
+ 
+#4: Bandos is currently on steroids while it takes a full inventory of food and constant potting to take down a successful kill. It would be greatly appreciated if he was nerfed just a tiny-wee bit.
+ 
+#5: Bank space is currently a little small as I haven't started combat yet and just from skilling supplies I'm already exceeding the bank limit, possibly increase by +100?
+ 
+#6: Creating a bullet item that indicates how long a player has been active on the account.
+ 
+#7: While training a stat that is Skill-point compatible you are currently being spammed your total. Possibly reducing the instance to announce when every 1,000 skill points has been achieved.
+
+These issues have been reported in chat by players:
+ 
+
+
+Dragon chain is unwearable
+Black shield (h) equips into helm slot
+Many gate entrances do not work
+Yanille bank booths can't be accessed
+Multiple banks are inaccessible
+Most (nearly all?) items have no Prayer bonuses
+Longrange (range & defence) doesn't give defence experience
+House Agent needs fixed/redone (cool concept, btw)
+Ranged is far too superior compared to Melee & Magic
+February 23, 2017
+ Oldman ral(for jars fo dirt scale exchange)
+Players playing Ironman who have donated can not use ::yell 
+Ruby bolts (e) can't be used with rune c'bow
+February 24, 2017
+Players are still unable to attack the Kraken
+"You can not attack this npc."
+Lava dragons forced a player off the map (underground)
+Finishing a potion doesn't give skilling points but instead spams current amount of skill points in the chat
+Druid's circle (easy) clue: Leather boots need to be HAM boots (says i'm not wearing the correct items)
+Demonic gorillas stop aggro forcing players to re-teleport
+Demonic gorilla zone walls can be clipped through
+February 25, 2017
+Duel Arena - Chat doesn't display inside the arena
+Duel Arena - Bank chests can't be used for banking
+Pest Control - Issue(s) with gates not opening properly
+Pest Control - Portals are still unattackable
+Ring of Suffering equips into the necklace slot
+Tormented bracelet equips into the necklace slot
+Items Kept on Death need looked at asap (Ex: food protects over DFS)
+Dragon thrownaxes can't be used (was told they act as a d scim)
+Players STILL can't use training arrows
+::players interface shows 'Mayhem's Active Players (19)' when quest tab shows Online Players: 10
+Support Staff (myself) still has Beta rank rather than Support rank icon when viewing ::players
+Ultimate Ironman icon is Support Staff when viewing ::players
+ 
+1: Heavy ballista super slow (movement or firing) and no spec.
+2: Remove defence requirement for gilded armour.
+3: Fix farming not producing herbs.
+4: Korasi changed to a one handed weapon. is currently a 2h weapon.
+5: Fix the rune pouches.
+6: Weapon poison not working.
+7: Make zulrah drops worth gp. (coconuts, snakeskin, grapes).
+8: Add 2x exp for an hour into the voting store rewards.
+9: Lizard shamen broken.
+10: Well of good will. (X) amount of gp for 1 hour of 2x exp. To counter the zulrah GP increase.
+11: Increase the amount items sell for into the general store.
+12: A globel well of fortune. 100m gp target to give the server 2-3x exp for an hour.
+13: Zulrah totems, (require 50k scales to fill).

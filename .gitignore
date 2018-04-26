@@ -1,0 +1,12 @@
+!.gitignore
+/lib
+/bin
+/bin-prod
+data/characters
+data/clan
+data/logs
+data/map
+data/reports
+data/tickets
+data/saves
+.settings/

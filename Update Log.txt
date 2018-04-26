@@ -1,0 +1,1392 @@
+[02/10/16]
+-added 3rd age pickaxe to mining
+-fixed essence mine
+-added 3rd age hatchet to woodcutting
+-added 3rd age pickaxe and axe to clue scroll hard rewards
+-added Trebble into the files as owner/developer
+-set auto clan chat to "Trebble"
+
+[03/10/16]
+-Added skill point, pvm point, boss point, trivia point systems and shops
+-redid achievment point, bounty point, vote point and credit shops
+-fixed client loading messages
+-added skill point shops to new shopping area
+-added regular shops to new shopping area
+-added pvm, achievement, boss, player owned shops to shops area
+-changed some npc names
+-removed gambler
+
+[04/10/16]
+-changed dialogue in teleports interface
+-fixed scroll on cities teleports
+-added shops teleport
+-added zeah, draynor, remmington, yanille & talvery teleports to city teleports
+-extended scroll on training interface to make room for more Monsters
+-added sand crabs teleport to training interface
+-added drops to sand crabs & added animations
+-added sand crab spawns
+-added a few new npc definitions(crystal dragon, rocky, rift guardian, aretha)
+-added combat definitions and stats similar to mithril dragons(slightly more health & dmg)
+
+[06/10/16]
+-crystal dragons are no longer aggressive
+-added crystal dragon spawns west of wildy agility course
+-added boss points to bosses
+-added pvm points & kill counter to some monsters(need to add all)
+-added tutorial to an npc
+-added crystal demon definitions(7036)
+-added crystal aviansie definitions(7037)
+-added pvm points & kill counter to aviansies & demons
+-added kill tracker interface(needs kills added)
+-added points to quest tab stats
+-fixed some dialogue on other interfaces
+-added skill points interface to quest tab stats skill point button
+-added updates url to links in quest tab & changed url links for vote,store & forums
+-added rune-server advertisment thread button to links
+-removed players in pvp & added player of the week to information tab
+
+[07/10/16]
+-added equipment slots for amulet of torture and obsidian cape (or)
+-added crystal demon spawns
+-added crystal avansie spawns
+-added crystal avansie to flying mobs
+-changed client zoom for resizable and fullscreen
+-added objects to new home area
+-clipped some tiles at home
+-added some npcs to home area
+-added thieving stalls to home area
+-added demonic gorilla teleport
+
+[09/10/16]
+-fixed ore object ids
+-added lovakite ore mining
+-added blurite ore mining
+-fixed skill points interface
+-added mining teleport options: dwarven mine, lovakite mine, shilo gem mine, essence mine
+-added clay mining
+-added blurite ore and clay ore to dwarven mine
+
+[10/10/16]
+-added Karamja teleport
+-added bank and prayer map icons to home area
+
+[14/10/16]
+-text now deletes after 80 lines, fixing the fps issue
+-fixed thieving random
+-added thieving points to home stalls & added dialogue
+-added all pets from lunar isle
+
+[15/10/16]
+-added skill points to skills
+
+[26/20/16]
+-added vesta models, equipdef, itemdef & bonuses
+
+[28/10/16]
+-added itemdefs for staitus(morrigans and zuriels models not in cache?)
+-fixed wield position of vlongsword & zuriels staff & statius warhammer & vspear
+-added full statius
+-fixed pvm & boss point drops
+
+[29/10/16]
+-added bonuses for statius and zuriels staff
+-added korasi model & itemdefs
+-added divine spirit shield itemdefs
+-added new woodcutting teleport
+-added a bank booth to the woodcutting area
+-added banks to zeah fishing wharf
+-changed fishing teleport(ADD IN FISHING SPOTS & OPTIONAL TELEPORT + FISHES)
+
+[30/10/16]
+-fixed item definitions for noted items & added divine spirit shield itemdefinitions
+-added shrimp/anchovie, trout/salmon, monkfish, lobster/swordfish & shark spawns to the
+ wharf fishing area
+ 
+ [1/11/16]
+ -fixed a bug with npcspawns
+ -removed shayzien from credits shop 3
+ -added spirit shield to credits shop 3
+ -added dice bag to credits shop 1
+ -added equipdefs for several items
+ 
+ [04/11/16]
+ -Monk robes (g) now give a prayer bonus equal to regular Monk robes
+ -Gilded hasta & spear now have the correct bonuses(equal to rune)
+ -Wooden shield (g) now has correct bonuses
+ -team cape: zero, x and i have bonuses +1 over obsidian cape
+ 
+ [07/11/16]
+ -obby cape (or) now has bonuses
+ -dragon scimitar (g) now has bonuses(add weapondefs)
+ -ballista now has bonuses as well as light ballista
+ -zenyte jewellry now has correct bonuses 
+ 
+ [11/11/16]
+ -Crystal dragons now have drops including pvp sets
+ -Snakeskin body & bandana now look correct
+ -using the right half of the dragon sq on the left half now creates a dragon sq shield
+ -added weapon definitions for light/heavy ballistas
+ -updated the boss points shop
+ -changed 1,000 cre voucher in order to have tanzenite helm
+ -updated pvm points shop
+ -Players can now teleport to Several Crystal monster locations via the training teleports
+ -renamed crystal npcs & added combat levels(TODO: buff the crystal npcs and add droprates)
+ -it is now free to teleport anywhere
+
+-LOST UPDATES LOG BETWEEN THESE DATES...
+
+[21/11/16]
+-added some custom metal + lava & lime phats client sided
+
+[22/11/16]
+-added metal hweens and metal santas client sided
+-metal hats, santas and hweens are now equiptable to the right slot
+-hween masks have been added as masks
+-full 121 npcdefinitions & itembonusdefinitions have been implemented
+
+[23/11/16]
+-herblore shop npc has been changed
+-range shop npc has been changed
+-added a custom item shop + metal phats to the shop(add metal hweens and santas)
+-coins have been added as a non-default currency in order to easily create shops
+
+[24/11/16]
+-added metal santas and hweens to custom item shop
+-custom items shop is now recolored items shop + options for several shops tba
+-added dialogue to recolored items shop
+-black santa, hween and phat have been renamed to brown
+-custom item shop is now the recolored item shop
+
+[25/11/16]
+-added 12 new recolored phats, santas and hweens to clientdef.java
+
+[27/11/16]
+-clipped the flag poles at home + blocked doorway until null items are removed
+-added recolored item salesman to home area
+
+[28/11/16]
+-there is now another recolored item shop +14 new item recolors
+
+[02/12/16
+-Heron and Beaver have been added to the fishing and woodcuting skill shops
+-added pvp sets and divine ss drop rates(add other new items drop rates)
+
+[03/12/16]
+-You can now obtain the Beaver skill pet randomly while woodcutting
+-You can now obtain a Heron skill pet randomly while fishing
+-You can now obtain a Rock golem skill pet randomly while mining
+-Clue bottles are now randomly obtained while fishing(easy, medium, hard)
+-the crystal chest now gives up to 50,000 gold per key!
+-wrote a class for clue bottles. clue bottles give you a random clue depending on the type
+-while mining, you now have a chance to find 100,000 coins around the rocks
+-added a global message when you receive a pet while skilling(add fishing & mining)
+
+[04/12/16]
+-skilling supplies shops are now available at the fishing docks & falador mine
+-there are now bank booths at the falador mine
+-changed cooking and mining skill point npcs
+-a bird nest class has been created to handle the different seeds & rings you will receive
+-You can now cut trees with a 3rd age axe
+-Birds nests now fall to the ground while woodcutting
+
+[05/12/16]
+-stump ids for willow,yew & magic trees have been set correctly
+-added some item and entity definitions for some pets
+-added correct slot ids for angler outfit
+-added a class for the Fishing casket and put in gold, raw food, fishing pets + angler outfit
+-you now have a chance to have a fishing casket fall at your feet
+-added correct slot ids for recolored grace outfits
+-fixed a bug with seed birds nests items
+
+[09/12/16]
+-you can now receive graceful recolors from the grace shop
+
+[11/12/16]
+-graceful hoods are now properly added as full helmets
+-Blood money is now a currency
+-A blood money shop and shopkeeper has been added(beginning to add items)
+-Lava dragon bones can now be purchased at the blood money store
+-entitydefs have been added to npc 6878 to allow trading & renamed to suit the bloodmoney shop
+-set lava texure on lava scales
+-set lava texture on lava dragon bones
+-added texture to the lava phat
+-added 6 custom spirit shield models(nature,stone,wooden,water,lava & ice)((TODO fix))
+
+[12/12/16]
+-fixed custom shop 2 shop id
+-added grace, bloodmoney and housing system npcs to home area
+-slot ids have been correctly added for 6 new custom spirit shields
+-bonuses have been added for each new spirit shield
+-renamed dragon claws correctly + added to bloodmoney shop along with lava spirit shield
+-a few more items have been added to the bloodmoney shop(TODO: Add more)
+-you now receive up to 25 blood money per log cut & up to 50 for every tree cut down
+
+[13/12/16]
+-added correct slot ids for enchanted zenyte jewellery
+-added correct slot id for bucket helmet
+-added some items to the bloodmoney shop
+-you can now chop redwood trees for near 2x magic log experience at 90 woodcutting(FIX FACING)
+//-the amount of logs you can cut compared to a magic tree has been doubled for redwood
+
+[14/12/16]
+-added the ladders to climb the redwood tree
+
+[18/12/16]
+-finished adding up/down ladders for redwood
+-You can now receive blood money while looting birds nests
+-added easy, medium and hard clue scroll nests to bird nests
+
+[19/12/16]
+-you can now receive clue nests randomly while skilling
+-you now receive blood money for thieving at the home stalls
+-you now receive blood money while smelting/smithing bars
+-added smithing points to creating armour/weapons
+
+[20/12/16]
+-fixed some objects at brimhaven dungeon
+-you can now use the anvils at varrock smithing area
+-edited bloodmoney shop and added Divine spirit shield
+-added correct slot ids for clue hunter armor and fixed platebody & helm
+
+[23/12/16]
+-added vesta/statius weapons and armor to the crystal chest
+-added correct slot ids and req for robes of darkness set & fixed hood/top (40 def 40 mage)
+-added robes of darkness to the crystal chest
+
+[24/12/16]
+-items that can now be created: Godswords (or), Occult/Torture amulets (or), Dragon defender & scimitar (g)
+-you can now aquire scrolls for godswords, occult/torture amulets dragon defender and scimitar to bloodmoney shop
+-added correct slot id for amulet of torture (or)
+-added some items such as firecape & wealth scroll to bloodmoney shop
+-custom lava boots and gloves have been created with moving textures!(add bonuses)
+
+[27/12/16]
+-fixed some shop ids
+-added a few shops to iron man players(add skillpoint shops and some others)
+-added bloodmoney to monster drops(make sure all npcs are in npcsdrops.java
+-gold and bloodmoney are now tradeable between players
+-you can now drop clue scrolls
+-renamed and added banking options to grand exchange booth
+-added teleport command ::home to grand exchange
+-you can now open the bank booths at the grand exchange for banking
+
+[29/12/16]
+-started working on ge home area, added bankers behind the counters
+-more npcs have been added to the new home area(need to finish)
+-altars are now at the home area
+-added banners, crystal chest and thieving stalls to home area
+-added lava boots & gloves to bloodmoney shop(add bonuses and rename)
+
+[31/12/16]
+-finished added npcs to home area
+-removed a couple objects from the home area
+-added jad pet drop
+-blood money now comes first in your inventory before items when thieving from the home stalls
+-redid prices for thieving items
+
+[04/01/17]
+-fixed the custom shop 2, players can now access the shop
+-added lava texture to lava hween and santa
+
+[05/01/17]
+-wrote a thieving casket class to give out rogue gear, gold and a raccoon pet
+-You will now receive thieving caskets randomly while thieving
+-removed rogue from the outfit shop
+
+[06/01/17
+-started working on the tutorial npc(added a quick tutorial option and a full server tutorial option)
+
+[07/01/17]
+-finished working on tutorial of home area
+-added new player owned shops object & added to the home area
+-wrote a money-making tips dialogue class and added it to the tutorial npc options
+-fixed up some dialogue
+
+[11/01/17]
+-added correct slot ids and fixed plate + mask for gravedigger outfit
+-finished dialogue & teleports for server tour. 
+-added a random skill pet drop to smithing 
+-added random dropping blood money and a skill pet to runecrafting
+
+[12/01/17]
+-You can now receive Bloodmoney while mining
+-You can now receive Bloodmoney while finishing a potion during herblore
+-You will now randomly receive a chompy chick while finishing potions
+-you now randomly receive a pet broom while fletching
+-you will now receive bloodmoney while fletching
+-you now randomly receive a pet pyro fiend while firemaking
+-you will now receive bloodmoney while firemaking
+-fixed home teleport. it now teleports you to the GE home area
+-added dhide boots, zeah city hats and scarfs, samarai outfit, & elder chaos robes slot ids and fixed plates/helms(to be added in-game)
+
+[13/01/17
+-added correct slot ids for pyromancer, evil chicken outfit, elder chaos hood, elder maul & wand + requirements
+-evil chicken outfit & double eye patches have been added to the trivia shop
+-samurai outfit, elder maul and elder wand have been added to the bloodmoney shop
+
+[14/01/17]
+-added correct slot id and requirments for elder chaos hood
+-created a fmcasket class and added pyromancer outfit, book of fire, bloodmoney and gold
+-renamed a casket to Firemaking casket & made it open-able
+-you now randomly get a fm casket while training firemaking
+-wrote a class for ClueBoxes, will be randomly added to some skills and such.
+-you will now randomly receive a clue box while training: Firemaking, Smithing, Runecrafting, Mining, Herblore & Fletching
+-added abyssal orphan pet
+-added some new items to the clothing shop and fixed the prices
+-fixed the phoenix pet
+-there will now be a message in your chatbox notifying you if you receive a clue box
+-fixed up the fming casket + added dialogue
+-fixed receiving clue boxes in some skills
+
+[15/01/17]
+-added the zamorak wizard at home and fixed shop ids for Bloodmoney & zamorak wizard
+-added 1000 unnoted rune ess and 500 unnoted pure ess to the zamorak wizards shop
+-the maximum supply for rune ess in the skilling shop is now 1000 noted rune ess
+-rock cakes now damage you for 1 HP and forces the played to say "Ow! i think i chipped a tooth." can be purchased at the pvm point shop
+-added a new phoenix item to better suit the phoenix.
+-added a bolt pack that gives sapphire, emerald, ruby, diamond, dragon & onyx bolts. requires 6 inventory slots to open
+-added sapphire-dragon bolts (e) to range shop
+-fixed gem rocks and added new gem rock objects + renamed and added mining + prospect options(add dialogue for prospecting items)
+-added twisted bow model & ints
+-added itemdefs, equipment defs, rangeweapondefs & bonuses to the twisted bow
+
+[17/01/17]
+-set up cache downloader, checks for new cache version. if there is a new one, it will ask you if you'd like to download it
+-wrote a client loader class, automatically grabs any client updates and adds them to your client as you load it
+-jarred the mayhem client and loader.
+-added skill points and a skill point shop class, the individual skill point shops and systems will be replaced with this single one
+-you can now visit the skillpoints shop at home or at the shopping area as well as the donator shop & bloodmoney shop
+
+[18/01/17]
+-fixed a few pets
+-added a cat crate class, gives you a random cat/kitten
+-added 22 cats as pets and added them to the cat crate
+-added crate of cats to the starter kits
+
+[20/01/17]
+-added herb boxes, clue boxes and crystal keys to the skill point shop. added some others as well, more to be added.
+-you can now randomly receive a pet tree spirit while woodcutting
+-you will now randomly receive a pet Goldfish while fishing
+-you will now randomly receive a pet dwarf while mining
+-you will now randomly recieve a pet raccoon while thieving
+
+[21/01/17]
+-redid the achievements shop
+-added a vote credit bond that gives 2 vote credits
+-added bonus credits to $5, $8, & $10 purchases
+-recolored slayer helmets can now be purchased at the slayer shops at a reduced price for 250 slayer points
+-added requirements and correct slot id for slayer helmet, music capes and hood, and ranger gloves
+-you can now buy the music cape, trimmed music cape and music hood at the clothing shop
+-removed the individual skill point shops
+-removed the skill points interface and added a skill points counter to the quest tab
+-started working on replacing credits tab with a shopping tab
+-added a scroll bar to the shopping tab & a majority of the shops in-game
+-you can now open the vote shop and general store from the shopping tab. need to finish adding the rest
+-fixed the animations for infernal pickaxe and 3rd age pickaxe
+-fixed the mining animations for bronze-rune pickaxes. now has an updated mining animation.
+
+[22/01/17]
+-finished adding most shops to the shopping tab
+-Impling hunting now works(add new spawns and such to make hunting easier & fix npc ids)
+-a bonus experience method has been added to Skill.java
+-Pyromancer outfit now gives a 5% exp bonus per piece and a 30% exp  while wearing the full set to Firemaking
+
+[23/01/17]
+-you can now zoom your camera in and out using the page up and page down buttons on your keyboard
+-fixed ironman shops in the shopping tab
+-fixed the impling npc ids and added the lucky impling and rewards
+-added implings to random walking(not working?)
+-added several teleporting locations for implings to Puro Puro(most are at puro puro)
+-made a temporary item that appends impling hunting.
+-fixed up hunter a bit, changed the swing animation
+-changed the stand/walk defintions for magic butterfly net
+-you now get a 10% bonus to hunting experience while wielding the magic butterfly net
+-added puro points shop to puro puro
+-removed some pets form puro points shop
+-fixed hunter tops and helms equipping
+-fixed skillpoint shop
+-fixed slayer helm recolors equipping
+-removed random dialogue if npcs do not have dialogue added to them
+-you can now use the magic butterfly net to hunt implings
+-added the correct infernal axe animation
+
+[24/01/17]
+-you will now receive a 5% experience bonus to slayer while wearing a slayer helm (i)
+-you now receive a 10% damage boost to magic, range and melee while wearing a slayer helm(any color)
+-you now receive a 15% damage boost to magic, range and melee while wearing a slayer helm (i)
+-selecting the "check" option on a slayer helmet will now allow you to check your current slayer
+-added a teleport option to the slayer helmet
+-selecting "teleport" on the slayer helmet will show you a variety of slayer teleports
+-changed the prestige npc
+-added animations to the Cave Horror
+-you can now receive a black mask as a rare drop from cave horrors
+-added pvm points to several monsters
+-cave horrors require 58 slayer to kill and can be give as slayer tasks
+-cave horrors can be found at the Mos le'harmless slayer dungeon
+-added more room for teleports in training teleports & added a teleport to cave horrors
+
+[25/01/17
+-Chinchompas hunting pets have been created. red, grey, black and yellow
+-removed the SpawnTab class to prevent people from cheat engine packet exploiting the server to spawn items
+-a message now displays when you equip pyromancer showing exp boosts, and an extra boost for full sets
+-changed donator sprites
+-disabled membership and motivote in server.java
+-added exp bonus dialogue to slayer helmet (i) and dialogue for dmg bonuses to both slayer helms and slayer helm (i)
+-you will now receive bloodmoney while hunting
+-added 4 different colored chinchompa pet drops to hunter
+-added the correct slot id for the new crystal shield
+-added correct slot ids for slayer helms (i)
+
+[26/01/17]
+-several shops are now accessable to ironman players
+-added more impling spawns at puro puro & the home area
+-fixed slayer helms (i) equipping
+-a new object has been added for player owned shops and they have been added to the home area
+-moved the voting booth
+-added 6 max cape racks behind mac
+-you will receive a fire max cape by having a max cape, max hood and firecape in your inventory and clicking the fire max cape rack
+
+[27/01/17
+-With the required items, you can now exchange you max capes at the rack for upgraded versions
+-renamed the cape racks to better describe the capes on each rack
+-fixed the wilderness ditch, you no longer teleport across.
+-added a setlvl command for administrators
+-wrote a special attack class for abyssal bludgeon and add strength bonuses to it
+-added definitions for abyssal bludgeon
+-commented out  the Highscores class & SQL classes causing errors. (search "Highscore" & check SQL)
+-changed the amount of skill points required for items. x50 points instead of 1. prices x50
+-started changing the old skill point systems to the new one. you now receive skill points whill cooking
+-started adding skillpoints to crafting. got to and finished the GlassBlowing class
+-dialogues counting skillpoints have been added to cooking & crafting down to the GlassBlowing class
+-fixed dmg bonuses for slayer helms
+
+[28/01/17]
+-finished adding skill points to crafting
+-finished adding skill points to farming
+-#132 data packed by Zion
+-skill points have been added to farming trees
+-skill points have been added to firemaking
+-skill points have been added to fishing
+-skill points have been added to fletching
+-skill points have been added to herblore
+-skill points have been added to hunter
+-skill points have been added to mining
+-skill points have been added to prayer
+-skill points have been added to runecrafting
+-skill points have been added to smithing
+-skill points have been added to thieving
+-skill points have been added to woodcutting
+
+[29/01/17]
+-started working on chinchompa hunting, butterfly hunting, bird hunting and salamander hunting
+-cant place box traps?(fix tomorrow)
+
+[30/01/17]
+-you can now view item model ids and more by examining them in debug mode
+-the fire max cape now has moving lava animations on some parts of the cape
+-redid the lava spirit shield, it now has a sigil.(need to fix invi model?)
+-132 itemdefinitions,bonusdefinitions, npcdefinitions, & rangedbonusdefinitions have been added
+-correct slot ids and equipment requirements have been applied to some new items(raid items and more)
+-a 20% range accuracy bonus has been applied to the dragon hunter crossbow
+-added some plates and helmets to equipment constants to fix equip model
+-correct animations for dinh's bulwak(need spec added!)
+-correct animations for elder maul(both weapons have punch and kick options atm. need to fix)
+-the Giant present now has the correct animations
+
+[01/02/17]
+-added a new loading bar to the client
+-the client loading bar now loads to 100%
+-redid the login dialogue
+-corrupt armor has been added to the achievements shop
+-ancestrial has been added to the bloodmoney shop
+-added banshee outfit and killers knife to prestige shop
+-multiplied credit prices by 10, credits gained by 10 and it now costs 10 credits to use the members mbox
+-removed items from the donator shop 1
+-added the append impling handler to the server startup method so they spawn when the server starts up
+-redid the outfits & achievements shop
+-you now receive birds nests from random nests while woodcutting instead of just the item
+-new items have been added to the vote shop
+-you need 60 attack to weild the Korasi
+-the korasi now has the special attack of the saradomin sword + a knockback & stun effect
+
+[03/01/17]
+-the dragon hunter crossbow now has the correct crossbow attack styles
+-the twisted bow now has the correct longbow attack styles 
+-magic shortbow special attack added which takes 50% special for 40% accuracy and 50% more damage
+-50% dmg boost has been added to the gmaul special attack + a 30% accuracy boost
+-cave horrors are now able to randomly walk around
+-added the Olmlet pet
+
+[05/01/17]
+-worked on the website, donation system added, vote system added and highscores added. other cosmetics done(Credits to Andy)
+-moved sandcrabs to a new location and changed the teleport
+-clipped tiles at the new home area(the great kourend) outside castle
+-clipped the north-east corner inside the castle
+-added credits to the donation page(server sided handling needed)
+
+[06/01/17]
+-created and added a support rank sprite to the cache
+-added a support rank to players
+-fixed the ironman and ultimate ironman sprite loading
+-added the support sprite client sided the chat chat interfaces
+-rewrote the public and quick chat ranking
+-changed the yell titles
+-added Trebble as the default clan chat
+-the ban command is for admin+
+-added a Support commands class
+-added a class for support commands
+-added a class for support commands interface, lists all support players commands
+-player support now have their own commands
+-attack style sidebars have been added to the elder maul & dinh's bulwak
+
+[07/01/17]
+-added a teleport to sand crabs
+-clipped some more walls and unclipped more tiles
+-added bank booths and altars + some more objects to home area(player owned shops, thieving etc)
+-removed some objects from the great kourend
+-removed instances of mayhem from the trivia bot + fixed some answers
+-moved npcs to the new home area
+-changed the home teleports to the new home area
+
+[08/02/17]
+-added dragon claw spec to new model
+-added item creation to the all slayer helms for slayer helm (i)
+-slayer helm (i) scroll is now obtainable for 150 slayer points in the slayer store
+-moved impling hunting to a new location, added in all new teleports + a few at home
+-added a teleport to the new hunting area
+-added combat definitions for Venenatis
+-added combat definitions for: culinaromancer, agrith-na-na, flambeed, karamel, dessourt & gelatinnoth mothers 6 phases
+-wrote a Gelatinnoth Mother class, she will now transform into her 6 phases, each phase requiring the correct combat style
+-added an instanced teleport to the Gelatinnoth mother dungeon.
+-extended the boss teleporting interface for more options
+-added two new pets, the lazy jubbly pet and the jubbly pet
+-changed the invi models to the custom pets npc model ids and resized to fit the inventory
+
+[09/02/17]
+-Teleports to Venenatis have been added + Venenatis spawn
+-new bosses will be logged(kill count)
+-spawns have been added for rfd bosses
+
+[10/02/17]
+-finished up adding rfd boss details
+-clipped the tiles in front of KBD lair so players can enter
+-blocked half the castle until it's fixed
+-fixed sizing issues for now npcs
+-made a Flambeed pet, to be added to flambeed as a rare drop
+-made a Karamel boss pet
+-made pets for the rest of the rfd bosses
+
+[11/02/17]
+-added several new skin recolors for all players
+-map icons have been placed near the slayer masters and thieving stalls 
+-replaced the yew trees with magic trees at the home area. 4 in total
+-created and packed a donator map icon into the cache and added it to the map near the donator stores
+-added a map icon for the guide near the valius tutor
+-packed the ironman mapicon sprite into the cache and added it near the ironman tutor
+-wrote an EventBoss class, handles spawning of random bosses at the area north of home each hour(needs to be finished)
+-decreased the amount of implings in the world from 20 to 15 at all times
+-Credits are now Valius Bucks
+-Beta rank has been implimented
+-Players that log in will now receive the Beta Tester rank
+-fixed support rank saving
+-drops have been added for all rfd bosses
+
+[12/02/17]
+-Created 6 new custom Gelatin boss pets for each form
+-drops have been added to the Gelatinnoth Mother. 
+-added a sprite dumper(needs to be fixed up)
+-drop definitions have been added for the demonic gorilla
+-a custom demonic gorilla pet has been added to the demonic gorilla drops along with Dragon thrown axes, ballista pieces & the Dragonhunter crossbow
+-added item creation for the light and heavy ballistas
+-combat defintions have been added to the ballistas
+-rewrote the starter tutorial and the tutorialNpc(areas and moneymaking need to be looked at!)
+-dragon javelins now appear in the correct slot
+-added definitions the the wildy blade 1
+-added dialogue to starter armor
+-you now receive a 5% bonus to designated skills while wearing starter armor
+-demonic gorillas are now attackable
+-birds nests now give empty nests
+-skill points have been added to woodcutting
+-fixed cat crate
+-you can now use arrows with the training bow
+-fixed the areas tutorial
+-fixed the moneymaking tutorial
+-added a bunch of global messages
+
+[13/02/17]
+-drop chances have been raised for most rare items, new items now have lower drop rates
+-The abyssal demon now drops the abyssal orphan pet
+-removed instances of Mayhem from the client
+-removed instances of Mayhem from the server
+-removed the spawn and pkskill tab client sided, 100% gone now
+-a guide for experience boosting items has been added to the forums guide section
+-changed extreme donator to ultra donator
+-packed the models for the infernal adze + added correct ints client sided
+-spawns have been places for 3 new Custom bosses
+-removed a yew tree from the home area overlapping the magic tree
+
+[14/02/17]
+-set up the vps & fixed update cache + client loader
+-fixed some cat crate items
+-packed a new ultimate ironman emblem into the cache
+-bonds have been added server sided
+-the correct model for the dice bag + ints have been adjusted and added
+-changed the help clan chat to mod divine
+
+[16/02/17]
+-resized the pet red dragon to a smaller size
+-double experience has been turned on for the duration of Beta. After Beta, it will be every weekend from friday morning to sunday midnight(EST)
+-donations have been added to the website & also server sided(more will be added in the future)
+-Started working on Upgradeable armor sets
+-upgraded version of bandos chest, tassets and boots (i) ints added client sided(bonuses and such will need to be added server sided still)
+-Ints for Armadyl set (i) has been added client sided
+-Ints for Barrows sets (i) have been added client sided for: Ahrims, 
+
+[17/02/17]
+-The voting system has been implemented server sided with rewards.
+-several pages have been added to the vote page
+-Download links for the Beta Client have been added to all pages on the forums!
+-some media and text has been added to the forums homepage
+
+[18/02/17]
+-the training bow now works
+-added vote tickets, you will receive 5 per vote!
+-fixed the voting booth, it will now take you to the correct web page
+-fixed experience boosting items
+-donation and voting dialogue fixed
+-clipped a tile at home in front of the thieving stall
+-fixed skillpoints saving
+-spiny helm and nose peg has been added to the slayer points shop
+-Drop rates for skill pets have been increased from 1/1000 - 1/4000
+-vote tickets have been fixed
+-double experience has been fixed
+-correct equipment levels for bgs, sgs and zgs have been added(75 attack)
+-added attack styles for dragon scimitar (g)
+-fixed the coord position for south east varrock mine clue
+-the falador clue scroll has been set properly
+-dryanor clue scroll has been given its correct position
+-the trivia shop has been placed at home
+-created a clue scroll shop filled with items used for clue scrolls, added it to home
+-Flambeed now spawns in his dungeon instead of Agrith Na-Na
+-PVM points have been added to all dragon IDs and Hill giants
+-Boss points have been added to Zulrah
+
+[19/02/17]
+-Mining has been fixed. pickaxes have been set in the right order(if you have a dragon axe in your inventory, it will prioritize it
+over rune for example.
+-Firemaking has been fixed(Andy)
+-You will now receive Trivia points when answering trivia correctly
+-you now get less nests while woodcutting(rates from 1/150 - 1/350
+-the skill pet from the thieving casket has been fixed
+-rusty scimitars are now sellable to the merchant
+-You can now enter jads cave
+-pvm points have been removed from cows
+-oziach has been added to the bottom of the steps south of the home area, he will create a dragonfire shield for you if you have 
+2M gold + a visage
+-changed the teleport into the wilderness agility course & added a portal out
+-ironman players can now access more shops(clue scroll shop, boss points, trivia)
+-players can now enter the lava dragon area
+-you cna now enter the fishing guild south of seers
+-the stairs and sarcophagus for the barrows brothers are all fixed. you can now play the barrows minigame!
+-the pure shop has been added to the shops interface, the prestige and achievements shops have been removed
+you can stil visit the prestige and achievement shops to the east of home
+-the Karamaja teleport is now visible in the cities teleports on the interface
+-godwars killcount has been set to 5.
+-the kill count for gwds has been set to 5
+-the twisted bow has been buffed 
+-the mining skill pets rates are now 1/3000 instead of 1/1000
+-Cows no longer drop PVM points or BM
+
+[20/02/17]
+-Black mask has been removed form easy drops from cave horrors(it's already in rare drops!)
+-changed how barrows is played. coffins are now on top of the hills & the chest is at the entrance
+-you are now able to leave the lava dragon area
+-Added the butterfly net to the general store and to the ironman shop
+-Buffed the Twisted bow again
+-added opening options for barrows box sets
+-Hunter will no longer level up with Farming
+-items no longer dismantle on death
+-impling jars have been added to the general store and the ironman shop
+-bloodmoney received while mining has been reduced
+-the coins received while mining have been changed from 1/100 to 1/350
+-you no longer receive bloodmoney for mining essence and skill points have been cut to 10 per ore
+-Elegant legs now equip to the correct slot
+
+[21/02/17]
+-fixed a bug with $10 membership bonds
+-skill points have been added to crafting
+-dialogue thanking you for supporting Valius has been added once you donate
+-the impling jars have been fixed in the general store
+-impling spawns have been fixed
+-puro points have been added to hunter
+-Lava dragon bones now give 15% more experience when buried or used on an altar
+-The hunter area has been moved to a new location
+-Players can now enter the Yaks area
+-Login messages have been added for staff members
+-a bank deposit has been added to the hunting area + the puro points shop
+-You current points show when catching a Impling
+-You can now choose to create bolts (unf) while smithing. it requires 1 bar for 15 bolts
+-Zulrah bloodmoney drops will now appear under your feet
+
+[22/02/17]
+-Blood money has been added to the online shop(25000, 100000, 250000 and 500000
+-you can now create a ring of wealth (i) by using a wealth scroll on it
+in the bosses teleports section.
+-created 3 custom boss pets for each boss
+-The new bosses will hit 50% dmg through prayers
+-you can now create a slayer helmet using a black mask, spiney helm, face mask, earmuffs, nose plug and enchanted gem
+-the price of rune sets has been increased
+-You will now receive bloodmoney while fishing
+-The highscores should all be working now(andy)
+
+[23/02/17]
+-Donations should now be working properly again
+-A bug which allowed you to only receive your first item purchased has been fixed
+-You are now able to attack the kraken
+-players can now attack demonic gorillas
+-players can now craft air runes
+-You will now be able to pick flax at the crafting area
+-Dragon darts now work for training range
+-New global messages have been added
+-Special attack bar now drain properly
+-drops for the lucky impling has been redone
+-Players will now receive boss and pvm points while killing cerberus. also, he will be logged for KC
+-Vote tickets are now tradeable
+-Ring of wealth (i) is now tradeable(Gives a 15% drop rate boost!)
+
+[24/02/17]
+-bloodmoney can now be aquired while cooking
+-Ironman accounts that have donated 5+ can now teleport to the donator zone
+-Dialogue fixes
+-Super, Uber & Elite donators can now use the ::bank command
+-Added attack options to the Kraken
+-You can now add Pure essence to Pouches
+-It will now announce when a player has donated
+-Fixed the door to the fishing guild
+-Dragon darts now have attack styles
+-Fixed the naming of some items
+-Nieves dialogue now says 250,000 gold instead of 1,000,000
+-You will now receive a 5% experience boost to Fishing while wearing Angler pieces. 
+the full set will give you an additional 5%, for a 30% total boost
+-You will now receive a 5% experience boost to Thieving while wearing Rogue pieces.
+the full set will give you an additional 5%, for a 30% total boost(add dialogue)
+
+[25/02/17]
+-Dark crab & Karambwan fishing spots have been added to the members area
+-Drops have been added for the Ancient warrior bosses(Includes Vesta, Statius, Korasi and more!)
+-Herblore now gives skill points when finishing a potion
+-Shop price has been changed for dragonfire shield and some other valuables
+-Players can now cross the bridge to Zamorak at gwds
+-A new dungeon has been added. Nieves slayer dungeon, complete with Cave Krakens(Get your tentacles!) has been added. Some more NPCs need to be added to it and will be in the future
+-Cave krakens now drop the Kraken pet!
+
+[29/02/17]
+-The 3rd age bow now has attack options + bonuses
+-Fixed the serp helm in the Boss points shop not being tradeable
+-attack options and definitons have been added to the Pink Elder Maul
+-Started working on RS3-like Firemaking(Add logs to fire) -Credits: 99.9% Andy
+-You can now throw Dragon thrown axes
+-Players can now chop Evergreen trees
+-Double experience weekend has been turned off. it will be actived again next weekend on friday!
+
+[01/03/17]
+-You will now get 10% bonus experience while wearing the magic butterfly net
+-Redwood logs are now able to be burned(Andy)
+-Double experience has been turned off until friday
+-Players will no longer receive Beta Emblems when creating new accounts.
+-You can now access Zamorak at godwars
+-Herbs can now be picked after farming
+-Name colors & sprites have been fixed for Beta players
+-The cabbage shield and cabbage cape now equipt to the correct slot
+-The tormented bracelet and ring of suffering now equipt to the correct slot
+
+[02/03/17]
+-A bug causing Bonfires to interfere with several objects has been fixed
+-The website is back online. we are working to get everything back up and running!
+-Been working on adding donation items back to the donation store
+-The Dragonfire shield is now tradeable
+-The Abyssal dagger now costs 25% special instead of 50%
+-You will receive marks of grace while training agility 4x more frequently 
+-Players can now purchase a max cape at 2178 total level
+-non existant objects fixed, now Pest control should work and all broken doorways + unclipped tiles
+-The new forums have been installed and will be worked on over the next while
+-players will no longer disappear from the PC minigame when dying
+
+[03/03/17]
+-Fixed a bug where players could enter the donators zone and donators couldn't
+-Been working on setting up forum categories, topics & forum ranks
+-Fixed the Twisted bow buff
+-added dialogue when equiping the rogue outfit and angler outfit
+-Double experience weekend has been activated
+-The pet Olmlet has been added to the vote points shop for 250 vote points
+-You will now receive Skill Points while fletching
+-You now have a 1/4000 chance to receive a pet baby monkey while cooking
+-Players now receive a Loyalty reward every hour for being online
+-Fixed some dialogue
+-a command for making player support has been added
+-2 crystal keys have been added to the starter kits
+-Players can now enter the fishing guild
+
+[03/03/17]
+-Prices have been adjusted in the in-game donator shop + ranger boots were added
+-notable scimi id, member tele, fming exp
+-Members can now enter the members area
+-You can now wear the dragon chainbody in the PVM points shop
+-The crystal bow now works
+-Dice bags have been added to the voting shop
+-The prayer bonus on Bolts has been fixed
+-fixed the Bandos godsword (or)
+-Players can now create the volcanic and frozen whip by using volcanic and frozen mixes on whips
+-renamed Valius bucks in the vote shop & added a new description
+
+[04/03/17]
+-Text, hp bars and hits now display in PVP(Issue with drops, atm when you kill someone drops dont show for the killer)
+-Recolored rares are now tradeable
+-The lizard shaman now has drops including the Dragon warhammer
+-did some more work on the website & donation shop
+
+[05/03/17]
+-fixed the gates to Yaks again?
+-Al-Kharid warriors are now located at Al-Kharid in the training teleports
+-the Elder maul, Dice bag & Barrelchest Anchor are now tradeable
+-Auto retaliate now works again
+-Models for Zuriels and Morrigans have been packed(Working on the Client sided Ints)
+-items added to easy clues: monk robes (g), gold chef hat and apron
+-Items added to medium clues: crier hat & top, clueless cluescroll
+-Ranger gloves, a pet Imp and pet German sheppard have been added to all clue scrolls
+-A new Logo and 14 new Forum ranks are paid for and in the process of being made by Mister Slyfer!
+Progress will be posted tomorrow regarding this
+-Models for the Dragon flail have been added. working on Bonuses and such. will be acquire-able tomorrow!
+-Double experience has been turned off until next weekend!
+
+[06/03/17]
+-Finished the Dragon flail
+-New cache has been uploaded and will automatically download when you load the client
+-The Dragon flail is now dropped by Zulrah and Cerberus. Who will be the first one to get it?
+-The new Logo & forum ranks have been finished. -Credits: Mister Slyther
+-Bank tabs will no longer randomly collapse
+-Drop rates for the dragon warhammer have been dropped by 1%
+-Mithril seeds are now plantable(Used for Gambling)
+-Mithril seeds have been added to the vote shop & online donators page
+
+[07/03/17]
+-Pvp bugs have finally been fixed where the hp bars, hits and text disappear
+-The new logo has been added to the forums and homepage 
+-The serpentine helm has been buffed(Poison is being worked on) + the other helmets now equip properly(fix slot ids)
+-You can now receive the Lumberjack outfit while woodcutting
+-You can now receive the Prospector outfit while Mining
+-Experience bonuses have been added to the Lumberjack and Prospector outfits (5% per piece)
+-removed 50x clue boxes from lizard shaman
+-PVM points have been added to Lesser demons
+-Bloodmoney now drops under the player at Cave Krakens
+-The Youtuber Rank has been added for those players looking to do videos for Valius
+
+[08/03/17]
+-The tentacle whip & Trident of the swamp are now tradeable
+-Added some new rank emblems on the website + did some other work on the forums
+-invisible onyx drops have been changed to the correct items
+-The new cache has been uploaded and will automatically download when you restart your client
+-Super donators can now enter the members zone
+-Links to the forums have been fixed
+-Started working on Upgradeable varrock armor. It will be released in tomorrows update and will 
+randomly upgrade while skilling
+
+[09/03/17]
+-added a login message for youtubers
+-removed some Beta dialogue
+-Loyalty system now works. Players will recieve 25 mithril seeds and 1 crystal key(sent to your bank) every hour online.
+-Donator ranks have been added to the forums. Post a request in the "Rank request" section to receive your forum rank
+-::bank and the membership teleport has been fixed for support members
+-White and Black flowers now have a 1/100 chance of being chosen. They should also be deleted after a certain amount of time
+-Players can now purchase a house for gold coins by speaking to the housing agent south of the home area
+-Members online today + Ranks have sprites + glows to them on the forums -Credits: Leo
+
+[11/03/17]
+-Double experience weekend is active for those who didn't already know.
+-donators can no longer use ::bank in the wilderness
+-prices for houses are: 1M, 5M, 30M
+-A healer has been added to the home area for Donator+ players. Talk to Nurse Joy just inside the castle. she will also restore your prayer
+-The varrock plate (from the start kits) is now upgradeable. if you are wearing it while smithing, you have a chance to receive
+the upgraded version(1-4)
+-the varrock plates now each give a bonus to smithing, 5%, 7%, 10% & 15% 
+-Skill points, bloodmoney and random rewards for firemaking have been added to bonfires
+-Bronze partyhats are now tradeable
+
+[12/03/17]
+-Redid the client login screen
+-Changed the sprite for the shops tab to a money bag sprite
+-Bonds are now tradeable
+-Started working on superior slayer monsters.
+-Finished Crushing hands + added spawns. drops still need to be finished, the cave will be released soon.
+-Odium + malediction wards are now tradeable. the saradomin sword blessed is also tradeable
+-A new cache has been uploaded and will automatically download upon loading up your client(Version 1.4)
+
+[13/03/17]
+-Crystal keys now cost 1 Achievement point
+-South of the home area is now Wilderness, Proceed with caution, items WILL be lost upon death
+-Pest control has been temporarily fixed. Instances have been removed until further notice. Note: only 1 pc game can run
+at a time until the intances are fixed.
+-an issue with bank tabs collapsing due to pets has been fixed? - Andy
+
+[14/03/17]
+-Double experience has been disabled
+-Zooming with the resizable client has been adjusted
+-Fixed the twisted bow disappearing? buffed the special attack
+-The recolored serp helms now equip to the right slot and have bonuses(Venom is being looked into)
+-Finished superior darkbeast & superior bloodvelds, the cave will be released within the next few days.
+-You can no longer enchant dragonstone rings
+-unclipped the tiles around the Pest control portals, which should fix melee combat for them
+-Crystal keys and Clue boxes have been added to Pest Control
+-Players now drop up to 1000 Blood money when killed in PVP
+-Void bonuses have been fixed for Elite void.
+
+[15/03/17]
+-70 Defence and Prayer is now required to wear spirit shields
+-fixed a bug with donating
+-Uber donator title has been fixed.
+-Finished Superior Dark beasts and Spectres, just need to finish drops for superior monsters 
+-Fixed the Elite void dmg bonuses
+-Some drop rates have been tweaked(Crystal monsters)
+-Several new items have been added to the crystal chest such as Armadyl and Ancient rune armors
+-Some edits have been made to the website(mostly on the forums)
+-Black demons now give PVM points and bloodmoney, Global thermonuclear smoke devil now give PVM points, Boss points and Bloodmoney
+-Prices for the whip and Berserker ring have been adjusted
+
+[17/03/17]
+-A command ::Discord has been added to quickly join the discord group chat
+-Double experience weekend is now available until monday!
+-Moderators can now use ::bank
+-Fixed the gates at the Wilderness agility course, you will no longer go through them and get stuck.
+-Some players were unable to donate. this bug has been fixed.
+-Link redirects have been fixed for the client
+
+[18/03/17]
+-Combat definitions have been added for: Screaming banshees, Night Beasts, Cave abominations (Drops will be added for these and the rest for tomorrow)
+-The Avas max cape now attracts arrows like the ava's accumulator
+-Few quick fixes with mod commands (::dz, ::bank)
+-Volcanic and Frozen whips are now both tradeable
+-The sapphire amulet has been added to the cluescroll items shop at the home area
+-Crystal keys have been added to the vote shop
+-Cave krakens no longer give boss points and track your progress each kill for PVM points
+
+[19/03/17]
+-You can now vote if your username is less than 3 characters long.
+-Ironman now get experience from bonfires.
+-You can no longer keep using a bonfire when their is no fire present.
+-You now need the required level to burn logs in a bonfire.
+Credits: Andy ^
+-Prices for title colors has been fixed. it now costs 50 credits to change your title color
+-combat definitions have been added for the greater abyssal demon & the Nechryarch
+-Superior slayer monsters require the same slayer level as their non-mutated monster
+-Superior monsters now hit 1/2 damage through prayers
+-buffed the twisted bow, void and void elite dmg
+-The kodai wand now has animations and the attack buttons of a wand as well as the mist and dust battlestaffs
+-Drop rates have been set to 2% for totems and 4% for mist and mud staffs on superior slayer monsters
+-Mist battlestaff now gives infinity air and water runes
+-Dust battlestaff now gives infinity earth and air runes
+-the ::bank command has been fixed for ironman members who have donated $25+
+-Iban's staff have been added to the pest control shop for 250 points
+-Drops for superior monsters have been finished and added, talk to James in-game near the bank at home to check out their drops
+Night beasts drop dark bow mixes & abyssal demons drop whips
+-Spawns have been added for the superior slayer monsters
+-Teleports to the Superior slayer dungeon have been added to the training tab of the teleports menu
+
+[21/03/17]
+-Saving has been added for quests. quests will soon play a role in valius - Credits: Andy
+-Prices have been adjusted for some items
+-Screaming banshees will now spawn at the Superior slayer dungeon
+-Tried another fix for collapsing tabs due to pets 
+-There is a lot less food and potions in the shops, making it more profitable for skillers to fish and make them
+
+[22/03/17]
+-The achievement shop and prestige shop have been fixed in the shop interface
+-the ironman shops have been added to the shops interface
+-Normal donators can no longer bank
+-Drop rates for superior monsters have been tweaked
+-Started working on Skitzo, Skitzo will tie into Superior slayer monsters
+-Started working on a new Super donator+ zone, this will be added in-game tomorrow!
+
+[22/03/17]
+-Started working on the super donator zone
+-added several skilling methods such as woodcutting, mining, crafting, runecrafting, theiving, smithing
+-Created a new members only stall that gives gold coins(No auto-clickers allowed)
+-Super donators can access the super donator zone by typing ::sdz
+-The Clue hunter outfit has been added to hard clue scroll rewards
+-The correct slot id has been added for the clue hunter helmet
+
+[23/03/17]
+-Imbued rings have been added to the donators shop 1
+-de-buffed the twisted bow, reports of 120+ hits have came in
+-The door that glitched players at the wilderness course has been removed.
+-Skotizo's combat script has been written - Credits: Andy
+-Minions have been fixed for Skotizo -Credits: Andy
+-The combat definitions for the minions + skotizo have been added
+-Skotizo's drops have been finished
+-Item creation for the dark totem has been added, 3 pieces are required.
+-Using the fully made dark totem on the altar within the Superior slayer dungeon will allow you to fight Skotizo
+-Created a custom pet Skotizo (5% chance)
+Skotizo Drops 120-150k coins, Double boss and pvm points, double blood money, and ancient shards(will be used for a future update: arclight)
+as well as a custom created Skotizo pet and some other neat items(Talk to James!)
+In order to access Skotizo, you will first need to gather the 3 pieces of the Dark totem, dropped within the Superior slayer dungeon.
+Once you have the totem created, head to the center of the dungeon and you will find a Altar. Use your totems on this to access Skotizo!
+
+[24/03/17]
+-Multi has been added to Skotizo's dungeon
+-Crystal monsters can now be received as slayer tasks
+-Superior slayer monsters can now be received as slayer tasks
+-Some other slayer tasks can be aquired as hard tasks such as: Dust devils & Gargoyles
+-Lizard shaman and demonic gorilla boss tasks should work now.
+-The teleport to the super donator zone has been moved closer to the bank
+-You can now mine Rune Rocks at the super donator zone
+-Magic and yew trees have been added to the super donator zone
+
+[26/03/17]
+-Combat definitions have been finished for the new donator boss
+-Drops have been added for the donator boss, talk to James or check your Monster Drops in your quest tab
+-The donator boss gives double blood money, pvm and boss points
+-added options to the bosses portal at the members area
+-Multi combat has been added to the members boss
+
+[27/03/17]
+-The members boss is now attackable
+-The avas max cape now saves darts and thrown items
+-The dice bag price has been reduced 50% in the vote shop & in-game Valius bucks store
+-Totem piece drops used to create a totem to fight Skotizo have been raised from 2% to 5% from superior slayer monsters.
+doors to some building at super donator zone
+
+[28/03/17]
+-Fixed the members boss, combat definitions were messed up a little
+-equipment definitions have been added for bandos and armadyl (i)
+-The Bandos sets (i) now have a +2 str bonus, +1 prayer bonus, & +10 defensive stats compared to the regular sets
+-The Armadyl sets (i) have a +10 range attack bonus & defensive bonuses & a +2 prayer bonus
+-Tradeable scrolls have been created to upgrade your bandos and armadyl armor, you can receive these scrolls from drops at godwars
+-The bandos and armadyl (i) are tradeable and prices have been set
+-Players cna now use a bandos scroll (i) or an armadyl scroll (i) on bandos or armadyl pieces to create the upgrade versions (i)
+
+[29/03/17]
+-The mystic air staff now equips to the correct slot id and the strength bonus was removed
+-The armadyl godsword is now more accurate for special attacks
+-Dragon claws price has been changed to prevent loss due to lower valued items, the new price is 23M
+-Skotizo now hits 50% damage through melee and magic prayers
+-You can now buy a dice bag from the bloodmoney shop, in addition the price of the dice bag has been reduced int he donator and vote shops to help promote gambling
+-Fixed a typo while firemaking when receiving the skill pet
+-The members boss is now attackable!
+
+-remove pegs + other boots and add upgrade scrolls
+-add c hally + creation with the crystal
+-create the first giant boss
+
+[30/03/17]
+-The Event for event bosses has been finished, currently working on some bosses for the event
+How it works:
+Players will be notified that a Boss has spawned. Once you fight and kill the boss, a chest is spawned and you can then take rewards from the chest, with a chance at some nice rare rewards.
+Over time, we will be adding more bosses to the Event. Bosses will be larger, stronger forms of current in-game bosses and will require a team to take him down. Players will have 30 minutes to defeat an event boss before he disappears until the next event. 
+Eventually we plan to expand our Events from just bosses, hense why it isn't "Event Bosses". We have some plans for double loots, double experience, and some other events for skillers such as resource collecting events and more!
+-Npc definitions have been set for Enraged cerberus + npc added client sided
+-Combat definitions have been added for Enraged Cerberus
+-Players will always receive crystal keys from the Boss Event
+-Players will receive 10x bloodmoney, 10x pvm and 10x boss points when opening the chest
+-A combat script for Enraged Cerberus has been written
+-Created a new drop chance, "Legendary", for items with drop rates under 1%
+--The event system will be active tomorrow!--
+-Double experience weekend is now ACTIVE!
+
+[31/03/17]
+-Event boss spawns have been changed. West of the Falador farming plot, South of the crafting area, West of the mining area in Lumbridge swamp
+-Multi has been added to the event boss areas
+-Animations for the event boss have been fixed
+-The event boss currently has a Very rare chance of rewarding raid items, a Ring of charos only obtainable from the event boss. This ring gives a 20% to drop rates, 5% more than the ring of wealth! Bandos and Armadyl armor upgrade scrolls as well as lots of bloodmoney and coins! more items will be added over time.
+
+[01/04/17]
+-The event boss now hits through prayer, 50% damage
+-The event boss now has 9,000 health! Teams will be necessary to take this beast down.
+
+[02/04/17]
+-The event boss now drops keys. These keys will be used on the chest to open it. This will remove the need for a "Looted players" list
+therefore, fixing the bug not allowing players who have already looted, to loot.
+-Spent some time removing and changing some things so the keys will work for opening the chest.
+-The key now actually opens the chest.
+-Location restrictions have been added for the event bosses
+
+[04/04/17]
+-The boss event has been fixed and works 100%! We will be hosting this event regularly.
+-Many more rewards (as shown below) have been added to the Boss event, more rewards will be added over time
+-Fixed the gate to the falador farmers field, in order to access the boss event. also added the climb-over fence option to enter the field
+-Crystal monster tasks have been fixed
+
+[05/04/17]
+-Zenyte jewellry has been added to the Event boss rewards, check out the drop table in the Guides section
+-Enraged Cerverus (the Boss event) has increased range defence
+-You can now create a recolored dark bow by using a dark bow mix on a dark bow
+-Xerician robes now equip to the correct equipment slot
+
+[06/04/17]
+-Double experience has been turned ON!
+-Fixed the npc definitions for enraged cerberus
+-Zenyte jewelry drops have been added to demonic gorillas
+-The combat definitions for Cave abominations have been fixed. you can now find them at the superior slayer dungeon!
+
+[07/04/17]
+-Drop rates have been reduced for the zenyte jewelry dropped by demonic gorillas. rates are now at 2%
+-The dwarven cannon has been fixed, it will no longer crash the server and shoots cannonballs. 
+-The ring of wealth now picks up gold, and the ring of wealth (i) will pick up both gold and bloodmoney looted from monsters
+-Dragon implings will now be more common at the hunter area
+-A few new global messages have been added
+-The dwarven cannon has been added to the slayer points shop. Cannonball creation will be added in tomorrow
+
+[09/04/17]
+-The ring of wealth and ring of wealth (i) have been fixed. they will now pick up the proper gold and bloodmoney
+-Renamed the Event Chest
+-The Event chest will no longer spawn when the boss dies, instead it will be at home for you to use your Event Keys on.
+-The ring of suffering will now give recoil dmg. you will not need to charge it and it will not crumble over time!
+
+[10/04/17
+-Fixed up some ranks on the forums
+-a bug causing the ring of wealth not to pick up bloodmoney has been fixed
+-Started adding objects to the elite donator zone
+-The new Event boss (Enraged Skotizo) is now finished, he will be implimented into the boss event tomorrow!
+-Animations & sidebars for the crystal halberd have been set
+
+[11/04/17]
+-the toxic staff of the dead is now tradeable
+-Skotizos max hit with melee: 60 max hit with magic: 65 (Half with prayers)
+-Finished adding a custom npc model for the Enraged skotizo, resizing the npc and adding the combat level
+-Combat definitions and bonuses have been tweaked, Enraged skotizo will have 10,000 HP
+-Double experience has been turned off until this weekend
+-The Yo-Yo has been added to the Achievements shop
+-A new Event is being worked on. The event will be for 30 Minutes of double experience! Over time, more events will be added in-game -Andy
+-The special attack for the Crystal Halberd has been added
+-The special attack for the Dragon Halberd has been added
+-Special attack boosts for the crystal halberd have been added. +40% dmg & accuracy
+
+[12/04/17]
+-The Double experience event is now finished. During this event, players will receive double experience for 30 minutes!
+-A bug with the Event bosses has been fixed causing them to go non-agro
+-A Custom rapier has been made, this rapier will have faster attack rates than normal weapons. Stats are set similar to the Chaotic Rapier
+-The rapier has been added to the Event boss as a possible Legendary reward. This is currently the ONLY way to aquire the rapier.
+-Fixed the world message for boss pets
+-A custom pet dark beast has been created and added to the dark beasts drop table as a rare reward
+
+[13/04/17]
+-DOUBLE EXPERIENCE WEEKEND is now active uptil sunday! Enjoy everyone.
+-A bug causing mobs to disappear when the "Remove" method in the mob class is called has been fixed. This fixed PC mobs, and instances along with some other things
+-Fixed the pet dark beast. Players will no longer be able to attack it.
+-Drop rates for the pet dark beast have been set to 2%
+-The rapier's attack speed has been raised. it will now attack even faster, making it the fastest Melee weapon currently in-game!
+-The rapier has been added to the credits shop 1
+-The dragonhunter crossbow & Armadyl crossbow will now attack faster & bonuses have been slightly boosted
+-The ring of charos, along with the 20% bonus to drop rates, will now give a 5% increase in attack, strength, & defence experience recieved while wearing the ring
+
+[14/04/17]
+-Dialogue for double experience weekend has been changed
+-Been working on the elite donator zone, will be finished for tomorrows update once i finish npc spawning
+-Players will now receive 10 boss and pvm points when looting the Event boss chest
+-Clipped some doorways at the super donator zone
+-Players now have access to purely Dragon impling at the super donator zone. Spawns have been added all over!
+-Enraged skotizo now hits through prayers for 50% dmg
+-began working on a new Event boss, Enraged general graador. hits through prayers for 50% dmg
+-Combat definitions are complete for Enraged general graador, he is also attackable
+-Custom NPC is complete, level is set and model is resized
+-The new Event boss will be ready for tomorrows update
+
+[15/04/17]
+-Spawning has been added for the new event boss
+-The new event boss has been resized and client sided definitions have been added
+-Started working on a members only currency. Members will be able to kill monsters at the members zone, which will drop Platinum and other useful items. players can spend platinum in the members shops. Each donator zone will have a different shop.
+-Finished the Elite donator zone for the most part, will be releasing it in tomorrows update along with the new members currency
+-more rewards such as statius, vesta, Zuriels staff & some recolored phats have been added to event boss drops
+
+[16/04/17]
+-The super donator zone implings now respawn properly
+-The ring of suffering now has a recoil. adding rings of recoil to the ring add 40 hits of recoil, maxing at 100,000!
+-The lava spirit shield has been given a +5 str bonus, giving it a higher str bonus than a dfs.
+-the random location with no spawn or name has been removed from the event boss
+
+[17/04/17]
+-Some issues with the forums have been fixed regarding members groups
+-the ring of suffering requires noted rings of recoil to charge it.
+-The elite donator zone is finished, the new donator point system is also finished. the monsters will be finished tomorrow!
+-The donator point shops have been started, looking for osme ideas for items to put in shops for each tier of donator
+
+[18/04/17]
+-The firecape models have been fixed. also, nieves firecape is no longer white
+-The platinum shop for members only has been created for Elite donators, will be adding one for the other zones later. Players can spend platinum to buy some useful items.
+-Akthanakos are finishes. these will drop platinum tokens, to be spent in the Platinum Token Shop.
+-Akthanakos will now give 2 boss points, 4 pvm points, up to 25 Platinum tokens and up to 1500 bloodmoney (more drops will be added soon)
+-Spawns have been added for Akanakos to the Elite, regular and super donator zones!
+-Elite donators can now access the elite donator zone by typing the command ::edz. Donator zones will be added to the teleport menu tomorrow
+-xercian hat and top have been fixed
+-The light and heavy Ballista will now fire at a faster rate
+
+[21/04/17]
+-fixed a big bug messing up a majority of the objects and some npcs
+-the green graceful boots now equip to the right slot
+-Been working on a new advertising strategy that will take effect within the next few days.
+-The bloodhound pet has been created and added to all cluescroll rewards
+-
+
+[NEW Updates]
+-A lot of drops have been adjusted
+-The donator monsters have been changed to Barbarians
+-Barrelchest has been moved to a more open location
+-Fixed a typo in the shops tab & when checking the value of items
+-Crystal Keys have been removed from the starter kits
+-The tutorial has been rewritten
+-Experience rates for non-combat skills have been raised 50-80%
+-The economy has been reset
+
+Andys Updates:
+-Fixed Boss event timer
+-Fixed double exp not activating correctly
+-Fixed kraken from spawning properly
+-Wrote a tool for resetting points
+
+
+
+[18/6/17]
+-added skilling points to gem crafting.
+-improved the value of drops from zulrah. (Worth more in general store)
+-added the ability to climb over the stile west of fally farm patches.
+-Overload potions are now drinkable
+-Players can now use a super combat potion(3) , a super magic potion(3) and a super range potion(3) with a torsol to make an Overload potion (4). 
+Super combat potions are created by mixing a super attack, strength and defence with a torsol.
+TODO: tomorrow i will be working on creation for the super magic and range potions. make sure to check out the next update so you can make sure you
+know how to make these potions! 
+-The platinum points shop has been added to the home area near the donator shop and title npcs
+-Overload potions have been added to the Platinum points shop for 250 platinum points each!
+
+[20/6/17]
+-The price on ancestrial in the Bloodmoney shop has been increased
+-Ironman can use the platinum shop
+-The platinum shop has been removed until it can be fixed.
+-Some item quantities in shops have been raised. check out the QuickShop tab
+ +Sharks, Manta Ray quantities have been raised from 500 - 1500
+ +Feather quantities have been raised from 10,000 - 25,000 in both the skilling supply shop & ironman shop.
+-Double experience has been turned OFF. it will be turned on again NEXT weekend.
+-Combat definitions for Elder Chaos druids has been added.
+-The Motherload Mine rock spawns have been added. Thanks Stan!
+ +Players can now mine veins for Paydirt.
+ +Paydirt can be exchanged at a Hopper for a random ore reward and also the chance for golden Nuggets
+ +Golden nuggets Will be a currency used to buy the Prospector outfit from the dwarf in the Motherlode Mine (Coming soon!)
+ +Experience rates are similar to coal, but ores DO NOT deplete. You will also receive experience for cleaning ores in the hopper
+ +Players will need 70 Mining to use the Motherlode mine
+ -The Kalphite Queen has been fixed up & the teleport has been re-added to the boss teleports.
+ 
+
+spirit shield creation is broken
+
+-~Platinum points shop~
+-add multiple options to the members teleport option
+-increase ballista attack speed
+-golem guys with the colored orbs in their chest, skill pets
+-shayzien
+-sdz implings
+-crystal hally
+-drops need to be added for venenatis
+-add dialogue when equiping the ring of charos
+-donator box with 100% good rewards
+-ult ironman: note and unnote npc, looting bag fixed(unnote and note at bank for all?)
+-walking too far east causes event bosses to go un-agressive
+-fix boss pet global message when received as a drop
+-root at nieves slayer dungeon
+-abyssal sire
+-superior slayer pets + Baby dragons
+-boss pet calling needs to be fixed
+-gold value on common items in the crystal chest
+-redo starting tutorial
+-the staff of the dead to the donator shop
+-cannonball smithing
+-add kalphite queen pet drop
+
+
+After beta: 
+koruend catacombs - 1651, 9987
+-ring imbue
+-twisted bow still goes invisible
+-::guides, ::updates commands + Edit player command list, ::commands
+-clue boxes, crystal keys, to void shop
+-flowers(white and black for rares)
+-void to shops
+-finish smithing armor
+-ham boots to clue shop
+-black demons to tav dung
+-add some shops at home(pvm, boss points)
+-barows sets kits
+-online shop
+-doors to men in edgeville
+-training bow arrows
+-ultimate ironman cannot unnote/note items.
+-weapon box
+-armor box
+-random rewards for time played
+-death altar broken
+-rogue chest in 53 wildy
+-crystal seed
+-banking for ult ironman players(a note and unnote option)
+-increase attack rates on wildy sword
+-add item creation for lava and frozen whip
+-time played in the quest tab
+-h1 shield wrong slot 7332
+-benefits of donating, shops tab, players online(mayhem)
+-gold coins to donations^^^
+-god dhides need requirements
+-bloodmoney + gold magnet
+-baby dragons dont have drops
+-pvp sets to other crystal monsters + dfs to crystal dragon
+-tradeable: bucks
+-rellika slayer dungeon to teleports
+-range levels defence with each attack
+-fires need to be clipped
+-onyx necklace isnt weildable + invisible(drops for crystal monsters)
+--Bosses dmg through prayers
+-gates to go to lower wildy need to be clipped
+
+
+
+[TODO]
+-add impling pets & other hunter stuff
+-add ::sds to commands list and ::bank
+-drops for some bosses(Venenatis)
+-event boss(home bosses. check TODO in EventBoss.java
+-finish adding bosses i added yesterdaycombat defs are done, mostly spawning, logging, bosspvm points and bloodmoney
+-add pets for all slayer monsters
+-dinh's bulwak spec
+-fix support emblem save on the client account saves(shows as beta tester emblem)
+-retake some GIFs
+-infernal, dragon and barbed harpoons
+-new pets!!! + skill pets work now
+-new items(raid, ardy cloak)
+-add overload potions
+-motherload mine(look at woodcutting as well as mining)
+-clue scrolls added more commonly to npc drops
+-make a dragon hunter crossbow special attack
+-black mask and black mask (i) bonus dmg and maybe exp(black mask = bonus melee dmg. black mask (i) bonus to all dmg
+-add more teleports for implings at puro puro & around the server
+-fix clipping at puro puro
+-add exp bonuses to more items(there are a lot that could have bonuses!)
+-~CHANGE HOW SHOPS ARE HANDLED FROM ONE MESSY CLASS TO A CLASS FOR EACH~-
+-~character name: Divine~
+-add custom bosses
+-rip a bunch more from lunar isle(item creation, pets, client sided defs, xmls)
+-check drop rates
+-add crystal chest rewards
+-change some things in quest interface(some things dont work as well)
+-remove instances of Mayhem from the server
+-attempt #2 at fixing title colors
+-redo title names(from lunar isle + some new ones maybe)
+-server messages(did you know... fairy "good" titler)
+-add kill counter to all npcs
+-kill log for npcs
+-upgraded armours
+-shayzien
+-detective dog pet(high 121 data npc ids!)
+-add minimap icons to home area
+-experience rates
+-add some more outfits
+-add bloodmoney to skills, fishing casket, thieving casket, crystal chest, + some other areas
+-elite clue scrolls
+-redwood object respawning face is always 0(check object manager/spider webs)
+-add lovakite smelting/smithing
+-first time login tutorial
+-remove skillpoint systems and add a single system for all skills + shops
+-some monsters need drops(Demonic gorillas) + tortured gorillas are the only npc being used atm. add correct npc id for demonic

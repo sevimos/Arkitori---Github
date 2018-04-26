@@ -1,0 +1,12 @@
+
+	<NpcSpawnDefinition>
+	<!-->Town crier<-->
+		<id>276</id>
+		<location>
+			<x>3282</x>
+			<y>3491</y>
+			<z>0</z>
+		</location>
+		<walk>true</walk>
+		<face>0</face>
+	</NpcSpawnDefinition>
