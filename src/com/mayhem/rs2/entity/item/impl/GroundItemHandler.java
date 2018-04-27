@@ -52,12 +52,19 @@ public class GroundItemHandler {
     }
 
     public static boolean add(Item item, Location location, Player player, Player include) {
-        GroundItem groundItem = new GroundItem(item, new Location(location), player == null ? null : player.getUsername());
-
-        groundItem.include(player == null ? null : player.getUsername());
-        add(groundItem);
-        return true;
-    }
+		GroundItem groundItem = new GroundItem(item, new Location(location), player == null ? null : player.getUsername());
+		 
+		if (!player.playerDropping && player.getEquipment().contains(12785) && groundItem.getItem().getId() == 13307 && player.getInventory().hasSpaceFor(groundItem.getItem())) {
+			player.getInventory().add(13307,item.getAmount());
+			player.getInventory().update();
+			player.send(new SendMessage("@red@Your row (i) places " + Utility.formatCoins(item.getAmount()) + " blood money in your backpack."));
+			return false;
+		}
+		player.playerDropping=false;
+		groundItem.include(player == null ? null : player.getUsername());
+		add(groundItem);
+		return true;
+	}
 
     public static boolean add(Item item, Location location, Player player, int time) {
         GroundItem groundItem = new GroundItem(item, new Location(location), player == null ? null : player.getUsername());
