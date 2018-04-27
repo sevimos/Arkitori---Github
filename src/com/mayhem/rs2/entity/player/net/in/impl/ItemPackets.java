@@ -1255,6 +1255,10 @@ public class ItemPackets extends IncomingPacket {
 				player.send(new SendMessage("You have found " + random + " coins inside the casket"));
 				break;
 			case 12938:// Zulrah teleport
+				if(player.inZulrah()) {
+					DialogueManager.sendStatement(player, "You are already at Zulrah!");
+					return;
+				}
 				player.getInventory().remove(12938, 1);
 				player.getMagic().teleport(2268, 3070, player.getIndex() << 2, TeleportTypes.SPELL_BOOK);
 				TaskQueue.queue(new Task(5) {
