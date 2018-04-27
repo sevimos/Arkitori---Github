@@ -626,8 +626,6 @@ public class ObjectManager {
 		
 				//woodcutting
 				spawnWithObject(6084, 1591, 3475, 0, 10, 0);//bank booth
-				spawnWithObject(28859, 1573, 3492, 2, 10, 3);//redwood
-				spawnWithObject(28859, 1573, 3493, 2, 10, 3);//redwood
 				
 				//fishing
 				spawnWithObject(6084, 1841, 3788, 0, 10, 0);//bank booth
@@ -887,7 +885,8 @@ public class ObjectManager {
 		deleteWithObject(3286, 3497, 0);
 		deleteWithObject(3286, 3498, 0);
 		deleteWithObject(3286, 3500, 0);
-		deleteWithObject(3288, 3502, 0);		
+		deleteWithObject(3
+				 , 3502, 0);		
 		deleteWithObject(3288, 3497, 0);	
 		deleteWithObject(3286, 3502, 0);
 		deleteWithObject(3287, 3498, 0);
