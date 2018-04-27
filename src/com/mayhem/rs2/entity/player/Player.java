@@ -198,6 +198,8 @@ private MysterySpin donorBox= new MysterySpin(this);
 	public boolean recoverySet = false;
 	public boolean ipSet = false;
 	
+	public boolean playerDropping = false;
+	
 	/* Uids */
 	private String uid;
 	private String lastKnownUID;
