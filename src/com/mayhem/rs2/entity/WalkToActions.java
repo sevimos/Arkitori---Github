@@ -269,7 +269,16 @@ public class WalkToActions {
 		final int[] length = ObjectConstants.getObjectLength(id, object == null ? 0 : object.getFace());
 		
 		switch (id) {
-		
+		case 31556://rev entrace
+			if(player.getLocation().getX() >= x - 3 && player.getLocation().getX() <=x + 3) {
+		player.teleport(new Location(3241,10234));
+			}
+		break;
+		case 31558://rev exit
+			if(player.getLocation().getY() >= y - 3 && player.getLocation().getY() <= y + 3) {
+			player.teleport(new Location(3126,3833));
+			}
+		break;
 		case 29241:
 			player.getSpecialAttack().setSpecialAmount(player.getSpecialAttack().FULL_SPECIAL);
 			player.getSkill().setLevel(Skills.PRAYER, player.getMaxLevels()[Skills.PRAYER]);
