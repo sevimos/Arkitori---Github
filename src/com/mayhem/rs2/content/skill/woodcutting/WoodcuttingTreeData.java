@@ -10,7 +10,7 @@ public enum WoodcuttingTreeData {
 	MAPLE_TREE(45, 1517, 1343, 45, 100.0D),
 	YEW_TREE(60, 1515, 9714, 50, 175.0D),
 	MAGIC_TREE(75, 1513, 9713, 55, 250.0D),
-	REDWOOD(90, 19669, 28860, 50, 475.0D);
+	REDWOOD(90, 19669, 29671, 50, 475.0D);
 
 	int levelRequired;
 	int reward;
@@ -26,6 +26,12 @@ public enum WoodcuttingTreeData {
 		}
 
 		String name = def.name.toLowerCase().trim();
+		
+		switch(objectId) {
+		case 29670:
+		case 29668:
+		return REDWOOD;
+		}
 
 		switch (name) {
 		case "dead tree":
