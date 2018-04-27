@@ -91797,7 +91797,7 @@
         <turn90CWAnimation>7596</turn90CWAnimation>
         <turn90CCWAnimation>7596</turn90CCWAnimation>
         <level>240</level>
-        <size>1</size>
+        <size>3</size>
         <attackable>true</attackable>
     </NpcDefinition>
 	<NpcDefinition>
