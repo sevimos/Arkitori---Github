@@ -266,7 +266,6 @@ public class WoodcuttingTask extends Task {
      * Handles giving a log after cutting a tree
      */
     private void handleGivingLogs() {
-        player.getClient().queueOutgoingPacket(new SendMessage("KOPIGEAKPGEPOAPKOG"));
         handleRandom(player);
         handleSeedNest(player);
         handleRingNest(player);
