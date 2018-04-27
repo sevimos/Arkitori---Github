@@ -59,7 +59,13 @@ public class Combat {
 	}
 
 	public void attack() {
-		entity.face(attacking);
+		if (entity.isNpc()) {
+			if (entity.getMob().getId() != 7710) {
+				entity.face(attacking);
+			}
+		}else {
+			entity.face(attacking);
+		}
 		
 		if ((!attacking.isActive()) || (attacking.isDead()) || (entity.isDead()) || (attacking.getLocation().getZ() != entity.getLocation().getZ())) {
 			reset();
@@ -74,6 +80,37 @@ public class Combat {
 			entity.getFollowing().reset();
 			reset();
 			return;
+		}
+		
+		if(!entity.isNpc() && !attacking.isNpc()) {
+			if(!entity.getPlayer().inDuelArena()) {
+			if(!entity.inWilderness() || !attacking.inWilderness()) {
+				entity.getCombat().reset();
+				entity.getPlayer().sendMessage("The player you are trying to attack is not in the wilderness.");
+				return;
+			}
+			if (!entity.inMultiArea() || !attacking.inMultiArea()) {
+	            if (entity.getCombat().inCombat() && entity.getPlayer().getCombat().getLastAttackedBy() != entity.getPlayer().getCombat().getAttacking()) {
+	            	entity.getPlayer().getClient().queueOutgoingPacket(new SendMessage("You are already under attack."));
+	            	entity.getCombat().reset();
+	            	return;
+	            }
+	            if (attacking.getCombat().inCombat() && attacking.getCombat().getLastAttackedBy() != entity.getPlayer() && !entity.getPlayer().getSummoning().isFamiliar(attacking.getCombat().getLastAttackedBy())) {
+	            	entity.getPlayer().getClient().queueOutgoingPacket(new SendMessage("This " + (entity.getPlayer().getCombat().getAttacking().isNpc() ? "monster" : "player") + " is already under attack."));
+	            	entity.getCombat().reset();
+	            	return;
+	            }
+
+	        }
+			 int difference = Math.abs(entity.getPlayer().getSkill().getCombatLevel() - attacking.getPlayer().getSkill().getCombatLevel());
+
+				if (difference > entity.getWildernessLevel()) {
+					entity.getPlayer().getClient().queueOutgoingPacket(new SendMessage("You must move deeper in the Wilderness to attack this player."));
+					entity.getCombat().reset();
+					return;
+				}
+			
+			}
 		}
 		
 
