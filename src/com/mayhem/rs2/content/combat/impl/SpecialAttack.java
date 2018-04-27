@@ -118,8 +118,11 @@ public class SpecialAttack {
 	}
 
 	public void update() {
-		SpecialAttackHandler.updateSpecialBarText(player, barId2, amount, initialized);
-		SpecialAttackHandler.updateSpecialAmount(player, barId2, amount);
+		Item weapon = player.getEquipment().getItems()[3];
+		if(weapon != null && weapon.getSpecialDefinition() != null) {
+			SpecialAttackHandler.updateSpecialBarText(player, barId2, amount, initialized);
+			SpecialAttackHandler.updateSpecialAmount(player, barId2, amount);
+		}
 	}
 
 	public void updateSpecialBar(int weaponId) {
