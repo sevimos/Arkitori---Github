@@ -9,7 +9,7 @@ import com.mayhem.rs2.entity.object.ObjectManager;
 
 public class StumpTask extends Task {
 	private GameObject object;
-	private final int treeId;
+	private int treeId;
 
 	public StumpTask(GameObject object, int treeId, int delay) {
 		super(delay, false, Task.StackType.STACK, Task.BreakType.NEVER, TaskIdentifier.CURRENT_ACTION);
@@ -20,14 +20,17 @@ public class StumpTask extends Task {
 	@Override
 	public void execute() {
 		ObjectManager.removeActive(object);
-
+		
+		if(object.getId() == 29668) {
+			treeId =29670;
+		}
 		RSObject rsObject = new RSObject(object.getLocation().getX(), object.getLocation().getY(),
-				object.getLocation().getZ(), treeId, 10, 0);
+				object.getLocation().getZ(), treeId, 10, 3);
 		if (Region.getRegion(object.getLocation().getX(), object.getLocation().getY()) != null)
 			Region.getRegion(object.getLocation().getX(), object.getLocation().getY()).addObject(rsObject);
 
 		ObjectManager.send(new GameObject(treeId, object.getLocation().getX(), object.getLocation().getY(),
-				object.getLocation().getZ(), 10, 0));
+				object.getLocation().getZ(), 10, 3));
 		stop();
 	}
 
