@@ -836,7 +836,7 @@ public class ItemPackets extends IncomingPacket {
 				}));
 				return;
 			}
-
+			player.playerDropping= true;
 			player.getGroundItems().drop(itemId, slot);
 			break;
 		case 236:
