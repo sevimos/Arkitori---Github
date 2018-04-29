@@ -180,7 +180,7 @@ public class Impling {
 				}
 				}
 
-				if (player.getSkill().getLevels()[22] < t.getLevelRequired()) {
+				if (player.getSkill().getLevels()[21] < t.getLevelRequired()) {
 					player.getClient().queueOutgoingPacket(new SendMessage("You need a hunter level of " + t.getLevelRequired() + "to catch this impling."));
 					return;
 				}
@@ -201,7 +201,7 @@ public class Impling {
 					handlePetRedChin(player);
 					handlePetBlackChin(player);
 					handlePetYellowChin(player);
-					player.getSkill().addExperience(22, t.getXp());
+					player.getSkill().addExperience(21, t.getXp());
 					player.skillPoints += 50;
 					player.puroPoints += 1;
 					teleportImpling(impling);
