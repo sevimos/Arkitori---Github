@@ -17,6 +17,9 @@ public class SendExpCounter extends OutgoingPacket {
 
 	@Override
 	public void execute(Client client) {
+		if(skill == 21) {
+		skill = 22;
+		}
 		StreamBuffer.OutBuffer out = StreamBuffer.newOutBuffer(10);
 		client.getPlayer().addCounterExp(exp);
 		out.writeHeader(client.getEncryptor(), 127);
