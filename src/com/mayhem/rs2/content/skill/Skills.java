@@ -12,7 +12,7 @@ public class Skills {
 	public static final Graphic LEVELUP_GRAPHIC = Graphic.highGraphic(199, 0);
 	public static final int[] EXPERIENCE_RATES = new int[SKILL_COUNT];
 	public static final int MAX_EXPERIENCE = 200000000;
-	public static final String[] SKILL_NAMES = { "attack", "defence", "strength", "hitpoints", "ranged", "prayer", "magic", "cooking", "woodcutting", "fletching", "fishing", "firemaking", "crafting", "smithing", "mining", "herblore", "agility", "thieving", "slayer", "farming", "runecrafting", "summoning", "hunter", "construction", "dungeoneering" };
+	public static final String[] SKILL_NAMES = { "attack", "defence", "strength", "hitpoints", "ranged", "prayer", "magic", "cooking", "woodcutting", "fletching", "fishing", "firemaking", "crafting", "smithing", "mining", "herblore", "agility", "thieving", "slayer", "farming", "runecrafting", "hunter", "summoning", "construction", "dungeoneering" };
 	public static final int ATTACK = 0;
 	public static final int DEFENCE = 1;
 	public static final int STRENGTH = 2;
@@ -38,8 +38,8 @@ public class Skills {
 	public static final int HUNTER = 22;
 	public static final int CONSTRUCTION = 21;
 	public static final int DUNGEONEERING = 24;
-	public static final int[][] CHAT_INTERFACES = { { 0, 6247 }, { 1, 6253 }, { 2, 6206 }, { 3, 6216 }, { 4, 4443, 5453, 6114 }, { 5, 6242 }, { 6, 6211 }, { 7, 6226 }, { 8, 4272 }, { 9, 6231 }, { 10, 6258 }, { 11, 4282 }, { 12, 6263 }, { 13, 6221 }, { 14, 4416, 4417, 4438 }, { 15, 6237 }, { 16, 4277 }, { 17, 4261, 4263, 4264 }, { 18, 12122 }, { 19, 4887, 4890, 4891 }, { 20, 4267 }, { 21, 4268 }, { 22, 4268 } };
-	public static final int[][] REFRESH_DATA = { { 4004, 4005 } , { 4008, 4009 }, { 4006, 4007 }, { 4016, 4017 }, { 4010, 4011 }, { 4012, 4013 }, { 4014, 4015 }, { 4034, 4035 }, { 4038, 4039 }, { 4026, 4027 }, { 4032, 4033 }, { 4036, 4037 }, { 4024, 4025 }, { 4030, 4031 }, { 4028, 4029 }, { 4020, 4021 }, { 4018, 4019 }, { 4022, 4023 }, { 12166, 12167 }, { 13926, 13927 }, { 4152, 4153 }, { -1, -1 }, { 24134, 24135 }, { -1, -1 }, { -1, -1 } };
+	public final int[][] CHAT_INTERFACES = { { 0, 6247 }, { 1, 6253 }, { 2, 6206 }, { 3, 6216 }, { 4, 4443, 5453, 6114 }, { 5, 6242 }, { 6, 6211 }, { 7, 6226 }, { 8, 4272 }, { 9, 6231 }, { 10, 6258 }, { 11, 4282 }, { 12, 6263 }, { 13, 6221 }, { 14, 4416, 4417, 4438 }, { 15, 6237 }, { 16, 4277 }, { 17, 4261, 4263, 4264 }, { 18, 12122 }, { 19, 4887, 4890, 4891 }, { 20, 4267 }, { 21, 4267 }, { 22, 4267 } };
+	public static final int[][] REFRESH_DATA = { { 4004, 4005 } , { 4008, 4009 }, { 4006, 4007 }, { 4016, 4017 }, { 4010, 4011 }, { 4012, 4013 }, { 4014, 4015 }, { 4034, 4035 }, { 4038, 4039 }, { 4026, 4027 }, { 4032, 4033 }, { 4036, 4037 }, { 4024, 4025 }, { 4030, 4031 }, { 4028, 4029 }, { 4020, 4021 }, { 4018, 4019 }, { 4022, 4023 }, { 12166, 12167 }, { 13926, 13927 }, { 4152, 4153 }, { -1, -1 }, { 24135, 24134 }, { -1, -1 }, { -1, -1 } };
 	public static final int CURRENT_HEALTH_UPDATE_ID = 4016;
 	public static final int MAX_HEALTH_UPDATE_ID = 4017;
 	public static final int CURRENT_PRAYER_UPDATE_ID = 4012;
