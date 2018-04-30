@@ -670,7 +670,8 @@ public class Skill {
 		String line2 = "You have reached level " + lvl + "!";
 
 		player.getClient().queueOutgoingPacket(new SendMessage(line1));
-
+		
+		if((skill != 21) && (skill != 22)){
 		player.getClient().queueOutgoingPacket(new SendChatBoxInterface(Skills.CHAT_INTERFACES[skill][1]));
 		
 		/*if (skill == Skills.FARMING) {
@@ -683,6 +684,8 @@ public class Skill {
 		} else {
 			player.getClient().queueOutgoingPacket(new SendString("<col=369>" + line1, Skills.CHAT_INTERFACES[skill][2]));
 			player.getClient().queueOutgoingPacket(new SendString(line2, Skills.CHAT_INTERFACES[skill][3]));
+		}
+		
 		}
 		
 		player.getUpdateFlags().setUpdateRequired(true);
